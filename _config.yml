@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "ko_KR"
+locale                   : en
 title                    : "Binary scroll"
 title_separator          : "-"
 name                     : "Haeseong"
@@ -151,12 +151,12 @@ kramdown:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul
 
 
 # Plugins
 
-gems: [jekyll-paginate, jekyll-sitemap, jekyll-gist, jekyll-feed, jemoji]
+gems: [jekyll-paginate, jekyll-sitemap, jekyll-gist, jekyll-feed, jemoji, jekyll-lunr-js-search]
 
 # mimic GitHub Pages with --safe
 whitelist:
