@@ -40,6 +40,6 @@ Rule 1. 생성자 대신 정적 팩터리 메서드를 사용할 수 없는지 �
 
 
 ### Summary
-- static factory method 는 public constructor 와 용소가 서로 다르며 차이와 장단점을 이용하는 것이 중요하다.
+- static factory method 는 public constructor 와 용도가 서로 다르며 차이와 장단점을 이용하는 것이 중요하다.
 
 출처: 이펙티브 자바
