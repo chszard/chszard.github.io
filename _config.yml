@@ -218,7 +218,9 @@ defaults:
       comments: true
       share: true
       related: true
-
+tags:
+  - jekyll
+  - code
 
 #defaults:
   # _pages
