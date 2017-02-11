@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Go Chapter 4. function
-category: blog
+categories: blog
 ---
   
 - 내부적으로 서브루틴은 주로 스택으로 구현함.
