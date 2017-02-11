@@ -152,14 +152,14 @@ kramdown:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 50 # amount of posts to show
 paginate_path: /page:num/
 timezone: Asia/Seoul
 
 
 # Plugins
 
-gems: [jekyll-paginate, jekyll-sitemap, jekyll-gist, jekyll-feed, jemoji, jekyll-lunr-js-search]
+gems: [jekyll-paginate, jekyll-sitemap, jekyll-gist, jekyll-feed, jemoji]
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -214,10 +214,21 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
+#       read_time: true
+#       comments: true
       share: true
       related: true
+  # _docs
+  - scope:
+      path: ""
+      type: main_nav
+    values:
+      sidebar:
+        nav: "main_nav"
+
+
+
+
 tags:
   - jekyll
   - code
