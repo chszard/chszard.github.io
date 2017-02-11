@@ -7,3 +7,10 @@
     display: inline-block;
     margin-right: 12px;
 }
+
+.error {
+  display: none;
+  .too-few-parameters, .too-many-parameters, .no-results {
+    display: none;
+  }
+}

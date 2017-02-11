@@ -3,7 +3,7 @@ layout: single
 title: Why use static factory method?
 excerpt: "Why use static factory method?"
 categories: blog
-tags: [java, effective java]
+tags: [java, effective-java]
 comments: true
 share: true
 modified: 2016-07-21T01:10:50
