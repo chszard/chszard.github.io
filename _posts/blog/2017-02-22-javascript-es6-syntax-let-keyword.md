@@ -32,14 +32,14 @@ function functionScope() {
 }
 
 functionScope();
+{% endhighlight %}
 
 ----------
-결과:
-20
-10
-15
-15 //undefined 가 아님.
-{% endhighlight %}
+    결과:
+    20
+    10
+    15
+    15 //undefined 가 아님.
 
 
 ### 블록 스코프 변수 선언
@@ -66,12 +66,13 @@ function blockScope() {
 }
 
 blockScope();
+{% endhighlight %}
 
 ----------
-결과:
-20
-10
-15
-ReferenceError: Can't find variable: local_value2
-{% endhighlight %}
+    결과:
+    20
+    10
+    15
+    ReferenceError: Can't find variable: local_value2
+
 
